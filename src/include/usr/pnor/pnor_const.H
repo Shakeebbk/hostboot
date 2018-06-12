@@ -5,7 +5,7 @@
 /*                                                                        */
 /* OpenPOWER HostBoot Project                                             */
 /*                                                                        */
-/* Contributors Listed Below - COPYRIGHT 2015,2017                        */
+/* Contributors Listed Below - COPYRIGHT 2015,2018                        */
 /* [+] International Business Machines Corp.                              */
 /*                                                                        */
 /*                                                                        */
@@ -46,6 +46,7 @@ enum SectionId
     HB_BASE_CODE,   /**< Hostboot Base Image */
 #ifndef BOOTLOADER
     SBE_IPL,        /**< Self-Boot Engine IPL image */
+    SBE_HASH,       /**< Self-Boot Engine Hashes */
     HCODE,          /**< HCODE Reference image */
     PAYLOAD,        /**< HAL/OPAL */
     HB_RUNTIME,     /**< Hostboot Runtime (for Sapphire) */
